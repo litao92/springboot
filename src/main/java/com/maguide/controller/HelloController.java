@@ -15,13 +15,13 @@ public class HelloController {
 
     @RequestMapping("/")
     @ResponseBody
-    public String home(){
+    public String home() {
         System.out.print("小明的修改");
         return "abcdefghhhhhh";
     }
 
-    public static void main(String[] arge){
-        SpringApplication.run(HelloController.class,arge);
+    public static void main(String[] arge) {
+        SpringApplication.run(HelloController.class, arge);
     }
 
 }
