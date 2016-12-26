@@ -7,6 +7,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.awt.*;
+
 @Controller
 @EnableAutoConfiguration
 public class HelloController {
@@ -14,6 +16,7 @@ public class HelloController {
     @RequestMapping("/")
     @ResponseBody
     public String home(){
+        System.out.print("小明的修改");
         return "abcdefghhhhhh";
     }
 
